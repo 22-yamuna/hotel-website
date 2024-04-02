@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    box-sizing: border-box;
+    border: 2px solid blueviolet;
+    border-radius:60px;
+    display:flex;
+    color: rgb(134, 10, 134);
+    display:space-between;
+    box-shadow:5px 5px 10px;
+}
+ul,a{
+    text-decoration: none;
+    text-align: center;
+    padding: auto;
+    margin:auto;
+    padding:5px;
+    
+}
+.brand-name{
+    margin-left:30px;
+    margin-right:850px;
+    font-weight:bolder;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+ul,a:hover
+{
+    color: rgb(177, 100, 231);
+}
+.reservation{
+    width: 100%;
+    padding: 5px;
+    border: 5px solid #5c1161;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top:auto;
+    box-shadow:5px 5px 10px;
+}
+.buttonsub {
+    cursor: pointer;
+    padding:20px;
+    border-radius: 50px;
+    border-color: blueviolet;
+    color: rgb(157, 69, 240);
+    box-shadow: 5px 5px 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .buttonsub:hover{
+    background-color:blueviolet;
+    color: white;
+    box-shadow: 5px 5px 10px gray;
+  }
+  .spanone{
+    color: rgb(87, 10, 117);
+    font-style: "poppins,sans sherif";
+  }
+  .div2{
+    background-color: rgb(178, 125, 228);
+    display: inline;
+  }
+  .div1{
+    align-items: center;
+    margin: 100px;
+  }
+.submitbutton{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+
+.formpadding
+{
+    padding-top:15px;
+}
+.contact{
+    text-align: center;
+}

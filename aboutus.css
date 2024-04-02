@@ -1,0 +1,38 @@
+.buttontext
+{
+    border:1px solid blueviolet;
+    padding: 10px;
+    border-radius: 50px;
+    color: blueviolet;
+    box-shadow: 5px 5px 10px blueviolet;
+}
+.buttontext:hover{
+    color: white;
+   background-color: blueviolet;
+   
+}
+.buttontext
+{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-left: 600px;
+}
+.about{
+    display: flex;
+    P{
+        padding-left:30px;
+    }
+
+}
+.img{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    justify-content: space-between;
+}
+#img1{
+    justify-content: space-between;
+    border: 1px solid black;
+    box-shadow:5px 5px 10px;
+}
